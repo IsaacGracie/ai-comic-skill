@@ -1,0 +1,19 @@
+{
+  "name": "你的角色名",
+  "id": "your-character-id",
+  "seed_prompt": "角色不变的面部/体型描述：身高体型、脸型、五官特征、肤色、发型等（全剧固定，保证一致性）",
+  "variants": {
+    "casual": {
+      "label": "日常穿搭",
+      "prompt": "服装款式、颜色、材质、配饰、场景背景"
+    },
+    "formal": {
+      "label": "正式着装",
+      "prompt": "服装款式、颜色、材质、配饰、场景背景"
+    }
+  },
+  "forbidden": ["在世艺术家名，避免风格模仿"],
+  "aliases": ["风格替代词"],
+  "art_style": "漫剧写实画风, cel-shading animation style, clean linework, cinematic composition",
+  "output_aspect": "1024x1536"
+}

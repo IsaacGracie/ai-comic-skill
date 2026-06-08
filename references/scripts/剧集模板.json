@@ -1,0 +1,27 @@
+{
+  "title": "第N章：章节名",
+  "scenes": [
+    {
+      "id": "s1_f1",
+      "template": "scene-board",
+      "prompt": "场景氛围描述",
+      "size": "1536x1024"
+    },
+    {
+      "id": "s1_f2",
+      "template": "full-body",
+      "characters": ["角色名(穿搭变体)"],
+      "composition": "构图描述",
+      "emotion": "情绪描述",
+      "size": "1024x1536"
+    },
+    {
+      "id": "s1_f3",
+      "template": "conversation",
+      "characters": ["角色A(变体1)", "角色B(变体2)"],
+      "composition": "双人构图描述",
+      "emotion": "氛围描述",
+      "size": "1536x1024"
+    }
+  ]
+}
